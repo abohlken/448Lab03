@@ -1,0 +1,51 @@
+body {
+	background-image: url(backgPawPrint.jpg);
+	background-size: 10%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+a {
+	color: #059b00;
+}
+
+a:hover {
+	color: #4bff44;
+}
+
+#header {
+	text-align: center;
+	color: #040d44;
+	font-family: Tahoma;
+	font-size: 36px;
+}
+
+#bio {
+	background-color: #ddd1ff;
+	color: #040d44;
+	font-family: Tahoma;
+	font-size: 24px;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	width: 50%;
+}
+
+#profimage {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 5%;
+	top: 5%;
+}
+
+.externalLinks {
+	background-color: #ddd1ff;
+	color: #040d44;
+	font-family: Tahoma;
+	font-size: 24px;
+	position: absolute;
+	left: 25%;
+	top: 500px;
+	width: 50%;
+}
