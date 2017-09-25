@@ -24,3 +24,11 @@ body {
 	height: 25%;
 	left: 50%;
 }
+
+#errorBG {
+	color: red;
+}
+
+#errorBor {
+	color: red;
+}
