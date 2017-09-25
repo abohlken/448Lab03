@@ -14,6 +14,7 @@ function colorChangeBackground()
 	{
 		if(red<=255&&red>=0&&blue<=255&&blue>=0&&green<=255&&green>=0)
 		{
+			document.getElementById("textBlurb").style.backgroundColor = "rgb("+red+","+green+","+blue+")";
 		}
 		else
 		{
@@ -45,6 +46,8 @@ function colorChangeBorder()
 	{
 		if(red<=255&&red>=0&&blue<=255&&blue>=0&&green<=255&&green>=0&&width>=0)
 		{
+			document.getElementById("textBlurb").style.borderWidth = width;
+			document.getElementById("textBlurb").style.borderColor = "rgb("+red+","+green+","+blue+")";
 		}
 		else
 		{
